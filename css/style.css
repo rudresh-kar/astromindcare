@@ -1288,7 +1288,7 @@ input, textarea, select {
   color: var(--accent-light);
 }
 
-.designed-by {
+.footer-bottom a.designed-by {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1296,10 +1296,17 @@ input, textarea, select {
   margin-top: 0.5rem;
   font-size: 0.8rem;
   color: var(--text-muted-light);
+  text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-.designed-by strong {
+.footer-bottom a.designed-by strong {
   color: var(--text-light);
+}
+
+.footer-bottom a.designed-by:hover {
+  opacity: 0.85;
+  color: var(--accent-light);
 }
 
 .fluxora-logo {
