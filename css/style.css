@@ -377,7 +377,7 @@ input, textarea, select {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 72% 20%; /* Shift image to hide the left blue corrugated background sheet */
+  object-position: center; /* Centered since the new photo has a centered portrait */
 }
 
 .hero-photo-placeholder {
